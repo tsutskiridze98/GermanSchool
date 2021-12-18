@@ -190,6 +190,7 @@ nav:hover {
 }
 
 .slide {
+    padding-top: 80px;
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -204,7 +205,7 @@ nav:hover {
 }
 
 .left, .right {
-    padding: 20px;
+    padding: 10px;
 }
 
 .left {
@@ -262,7 +263,7 @@ nav:hover {
     }
 
     .slide {
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
 
     .slide .right, .left {
